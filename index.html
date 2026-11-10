@@ -3,16 +3,40 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
+  <title>Suyog | Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="card">
-    <span class="badge">Welcome</span>
-    <h1>Hi, I'm Suyog 👋</h1>
-    <p>I am building my own websites and learning web security.</p>
-    <button id="clickBtn">Click Me</button>
-  </div>
+
+  <header>
+    <h2>Suyog Chaudhari</h2>
+    <p class="subtitle">Electrical & Web Developer</p>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h3>👋 About Me</h3>
+      <p>I am learning web development, IoT hardware tinkering, and cybersecurity basics. Passionate about bridging electrical engineering with software.</p>
+    </section>
+
+    <section class="card">
+      <h3>⚡ Skills & Stack</h3>
+      <div class="skills-list">
+        <span class="badge">HTML & CSS</span>
+        <span class="badge">JavaScript</span>
+        <span class="badge">Electrical Wiring</span>
+        <span class="badge">IoT (ESP32)</span>
+        <span class="badge">Git & GitHub</span>
+      </div>
+    </section>
+
+    <section class="card">
+      <h3>🚀 Test My App</h3>
+      <button id="clickBtn">Click For Magic</button>
+      <p id="msg" style="margin-top: 10px; color: #38bdf8;"></p>
+    </section>
+  </main>
+
   <script src="script.js"></script>
 </body>
 </html>
